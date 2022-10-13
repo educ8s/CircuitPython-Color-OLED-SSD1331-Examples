@@ -9,7 +9,7 @@ board_type = os.uname().machine
 print(f"Board: {board_type}")
 
 if 'Pico' in board_type:
-    cs_pin, reset_pin, dc_pin, mosi_pin, clk_pin = board.GP18, board.GP17, board.GP16, board.GP11, board.GP10
+    clk_pin, mosi_pin, reset_pin, dc_pin, cs_pin = board.GP18, board.GP19, board.GP16, board.GP20, board.GP17
 elif 'ESP32-S2' in board_type:
     mosi_pin, clk_pin, reset_pin, cs_pin, dc_pin = board.IO35, board.IO36, board.IO38, board.IO34, board.IO37    
 else:
