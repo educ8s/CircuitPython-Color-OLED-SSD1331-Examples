@@ -8,6 +8,7 @@ from adafruit_ssd1331 import SSD1331
 import adafruit_imageload
 
 IMAGE_FILE = "icon.bmp"
+SPRITE_SIZE = (50,50)
 FRAMES = 28
 
 displayio.release_displays()
@@ -46,7 +47,7 @@ icon_bit, icon_pal = adafruit_imageload.load(IMAGE_FILE,
 
 icon_grid = displayio.TileGrid(icon_bit, pixel_shader=icon_pal,
                                  width=1, height=1,
-                                 tile_height=50, tile_width=50,
+                                 tile_height=SPRITE_SIZE[1], tile_width=SPRITE_SIZE[0],
                                  default_tile=0,
                                  x=23, y=7)
 

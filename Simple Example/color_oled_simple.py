@@ -3,7 +3,6 @@
 # Raspberry Pi Pico: http://educ8s.tv/part/RaspberryPiPico
 # ESP32-S2 Board: http://educ8s.tv/part/esp32s2
 
-
 import board, busio, displayio, os
 import terminalio #Just a font
 from adafruit_ssd1331 import SSD1331
