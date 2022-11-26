@@ -4,8 +4,7 @@ I created some simple projects with CircuitPython to help you get started with t
 
 1. Simple Hello World project.
 2. A Pong Game
-3. A project that displays and animated GIF icon. The gif icon was converted using this tool:<a href="https://github.com/educ8s/Python-GIF-to-Sprite-sheet">GIF to Sprite Sheet</a>
-
+3. A project that displays and animated GIF icon that was converted into a Sprite Sheeet. The gif icon was converted using this tool: <a href="https://github.com/educ8s/Python-GIF-to-Sprite-sheet">GIF to Sprite Sheet</a>
 
 # Video Tutorial
 
